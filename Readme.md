@@ -1,4 +1,5 @@
-<img width="1901" height="825"  src="https://github.com/user-attachments/assets/a3a2d897-c15a-4aad-b7f7-46ea1a891572"  alt="Royal Haven Hotel"/>
+fa<img width="1000" height="773" alt="image" src="https://github.com/user-attachments/assets/248fde9d-2654-4b12-bc81-0a76c0f259c4" />
+
 
 # Royal Haven Hotel — Luxury Hotel Website
 
