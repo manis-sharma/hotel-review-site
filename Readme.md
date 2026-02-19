@@ -1,5 +1,3 @@
-<div align="center">
-
 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtiws2CVMMgvjptlpQndRwI8EJCZuBaA18dQ&s" alt="Royal Haven Hotel"/>
 
 # Royal Haven Hotel — Luxury Hotel Website
@@ -114,11 +112,11 @@ Both fonts are loaded from **Google Fonts** with `font-display: swap` for perfor
 
 ## 📸 Screenshots
 
-> _Add your screenshots to a `/screenshots` folder and update paths below._
-
 | Dark Mode — Hero | Light Mode — Rooms |
 |---|---|
-| ![Hero Dark](screenshots/hero-dark.png) | ![Rooms Light](screenshots/rooms-light.png) |
+| ![Hero Dark](<img width="1890" height="823" alt="image" src="https://github.com/user-attachments/assets/0748424f-7a63-4525-bb7e-fa575c05544d" />
+) | ![Rooms Light](<img width="1857" height="819" alt="image" src="https://github.com/user-attachments/assets/4e611255-4ee2-42a1-8af8-6a27bad1c10d" />
+) |
 
 | Admin Dashboard | Booking Modal |
 |---|---|
