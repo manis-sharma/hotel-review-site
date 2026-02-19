@@ -113,13 +113,15 @@ Both fonts are loaded from **Google Fonts** with `font-display: swap` for perfor
 ## 📸 Screenshots
 
 | Dark Mode — Hero | Light Mode — Rooms |
-|---|---|(<img width="1890" height="823" alt="image" src="https://github.com/user-attachments/assets/0748424f-7a63-4525-bb7e-fa575c05544d" />
-| (<img width="1857" height="819" alt="image" src="https://github.com/user-attachments/assets/4e611255-4ee2-42a1-8af8-6a27bad1c10d" />
+|---|---|<img width="1890" height="823" alt="image" src="https://github.com/user-attachments/assets/0748424f-7a63-4525-bb7e-fa575c05544d" />
+| <img width="1857" height="819" alt="image" src="https://github.com/user-attachments/assets/4e611255-4ee2-42a1-8af8-6a27bad1c10d" />
 |
 
 | Admin Dashboard | Booking Modal |
 |---|---|
-| ![Admin](screenshots/admin.png) | ![Booking](screenshots/booking-modal.png) |
+| <img width="1871" height="806" alt="image" src="https://github.com/user-attachments/assets/847e037f-fa29-4a1d-bbd9-8e40c6d3f052" />
+|<img width="1180" height="746" alt="image" src="https://github.com/user-attachments/assets/8f49ab45-ca06-4879-b832-525b5a5e9ab1" />
+|
 
 ---
 
@@ -166,7 +168,9 @@ npx serve .
 ```
 royal-haven-hotel/
 │
-├── royal-haven-hotel.html     # ← Entire application (single file)
+├── royal-haven-hotel.html     # ← Entire application
+├── style.css                  # CSS file
+├── script.js                  # JS file
 ├── README.md                  # This file
 ├── LICENSE                    # MIT License
 │
@@ -179,7 +183,7 @@ royal-haven-hotel/
     └── booking-modal.png
 ```
 
-> The entire site is intentionally a **single HTML file** — CSS and JavaScript are inlined for zero-dependency portability. Drop it anywhere and it works.
+> The entire site is intentionally a ** HTML, JS, CSS file** —  for zero-dependency portability. Drop it anywhere and it works.
 
 ---
 
@@ -419,12 +423,11 @@ subject to the conditions of the MIT License.
 **Royal Haven Hotel — Nepal**  
 📍 Thamel, Kathmandu, Nepal  
 📧 info@royalhavenhotel.com.np  
-🌐 [royalhavenhotel.com.np](https://royalhavenhotel.com.np)
+🌐 [royalhavenhotel.vercel.app](https://royalhavenhotel.vercel.app)
 
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white)](#)
-[![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=flat-square&logo=facebook&logoColor=white)](#)
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=flat-square&logo=twitter&logoColor=white)](#)
-[![TripAdvisor](https://img.shields.io/badge/TripAdvisor-00AF87?style=flat-square&logo=tripadvisor&logoColor=white)](#)
+[![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=flat-square&logo=facebook&logoColor=white)](https://www.facebook.com/manishsharma.np)
+[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=flat-square&logo=twitter&logoColor=white)](https://x.com/manisxcode)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/manis-sharma)
 
 ---
 
@@ -432,7 +435,7 @@ subject to the conditions of the MIT License.
 
 **♛ Royal Haven Hotel — Luxury Redefined in Nepal ♛**
 
-*Made with ❤️ and pure HTML · CSS · JavaScript*
+*Made by Manish Sharma with ❤️ and pure HTML · CSS · JavaScript*
 
 ⭐ If you found this project helpful, please give it a star!
 
