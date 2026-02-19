@@ -405,19 +405,11 @@ Please follow these commit message conventions:
 | `Refactor:` | Code restructure, no feature change |
 
 ---
+## 🌟 Star History
 
-## 📄 License
-
-Distributed under the **MIT License**. See [`LICENSE`](LICENSE) for full text.
-
-```
-MIT License — Copyright (c) 2025 Royal Haven Hotel
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software to use, copy, modify, merge, publish, and distribute it,
-subject to the conditions of the MIT License.
-```
-
+[![Star History Chart](https://api.star-history.com/svg?repos=manis-sharma/hotel-review-site&type=date&legend=top-left)](https://www.star-history.com/#manis-sharma/hotel-review-site&Date)
 ---
+
 
 ## 👤 Author
 
