@@ -13,8 +13,7 @@ No frameworks. No dependencies. Just elegant, production-grade frontend code.
 [![License: MIT](https://img.shields.io/badge/License-MIT-gold?style=flat-square)](LICENSE)
 [![Status](https://img.shields.io/badge/Status-Live-4caf7a?style=flat-square)]()
 
-[🌐 Live Demo](https://royalhavenhotel.vercel.app/) · [📸 Screenshots](<img width="1901" height="825" alt="image" src="https://github.com/user-attachments/assets/a3a2d897-c15a-4aad-b7f7-46ea1a891572" />
-) 
+[🌐 Live Demo](https://royalhavenhotel.vercel.app/) ·<img width="1901" height="825" alt="image" src="https://github.com/user-attachments/assets/a3a2d897-c15a-4aad-b7f7-46ea1a891572" />
 
 </div>
 
