@@ -1,4 +1,4 @@
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtiws2CVMMgvjptlpQndRwI8EJCZuBaA18dQ&s" alt="Royal Haven Hotel"/>
+<img width="1901" height="825"  src="https://github.com/user-attachments/assets/a3a2d897-c15a-4aad-b7f7-46ea1a891572"  alt="Royal Haven Hotel"/>
 
 # Royal Haven Hotel — Luxury Hotel Website
 
