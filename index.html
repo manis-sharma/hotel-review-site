@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <!-- ══════════════════════ SEO ══════════════════════ -->
+  <title>Royal Haven Hotel Nepal | Luxury Hotel in Kathmandu & Pokhara</title>
+  <meta name="description" content="Experience unparalleled luxury at Royal Haven Hotel, Nepal's premier destination for world-class hospitality in Kathmandu and Pokhara. Book your royal escape today."/>
+  <meta name="keywords" content="luxury hotel Nepal, best hotel Kathmandu, Pokhara resort, Nepal tourism, 5-star hotel Nepal, Himalayan hotel, royal stay Nepal, Nepal travel, luxury accommodation Nepal, boutique hotel Kathmandu"/>
+  <meta name="robots" content="index, follow"/>
+  <meta name="author" content="Royal Haven Hotel"/>
+  <link rel="canonical" href="https://royalhavenhotel.com.np"/>
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website"/>
+  <meta property="og:url" content="https://royalhavenhotel.com.np"/>
+  <meta property="og:title" content="Royal Haven Hotel Nepal | Luxury Redefined"/>
+  <meta property="og:description" content="Nestled in the heart of Nepal, Royal Haven offers royal comfort, world-class hospitality and unforgettable Himalayan views. Book your stay now."/>
+  <meta property="og:image" content="https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200&h=630&fit=crop"/>
+  <meta property="og:locale" content="en_US"/>
+  <meta property="og:site_name" content="Royal Haven Hotel"/>
+
+  <!-- Twitter/X -->
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:site" content="@manisxcode"/>
+  <meta name="twitter:title" content="Royal Haven Hotel Nepal | Luxury Redefined"/>
+  <meta name="twitter:description" content="Experience Nepal's finest luxury hotel in Kathmandu & Pokhara. Himalayan views, world-class spa & royal hospitality await you."/>
+  <meta name="twitter:image" content="https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200&h=630&fit=crop"/>
+
+  <!-- Schema.org -->
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Hotel","name":"Royal Haven Hotel","description":"Nepal's premier luxury hotel in Kathmandu and Pokhara","url":"https://royalhavenhotel.com.np","address":{"@type":"PostalAddress","addressLocality":"Kathmandu","addressCountry":"NP"},"starRating":{"@type":"Rating","ratingValue":"5"},"priceRange":"$$$"}
+  </script>
+<link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+
+</head>
+<body>
+
+<!-- MOBILE MENU -->
+<div class="mmenu" id="mm">
+  <button class="mmenu-close" onclick="closeMM()">✕</button>
+  <a href="#home" onclick="closeMM()">Home</a>
+  <a href="#gallery" onclick="closeMM()">Gallery</a>
+  <a href="#rooms" onclick="closeMM()">Rooms</a>
+  <a href="#feedback" onclick="closeMM()">Reviews</a>
+</div>
+
+<!-- NAVBAR -->
+<nav>
+  <div class="nav-in">
+    <a class="nav-brand" href="#home">
+      <span class="nav-crown">♛</span>
+      <span class="nav-name">ROYAL HAVEN</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#rooms">Rooms</a></li>
+      <li><a href="#feedback">Reviews</a></li>
+    </ul>
+    <div class="nav-acts">
+      <button class="btn-ghost" id="loginBtn" onclick="openLogin()">Sign In</button>
+      <button class="btn-icon" onclick="toggleTheme()" title="Toggle theme"><span id="themeIco">☀️</span></button>
+      <button class="hamburger" onclick="openMM()"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="hero-bg" id="heroBg"></div>
+  <div class="hero-deco"></div>
+  <div class="hero-cnt">
+    <span class="hero-eye">Nepal's Premier Luxury Retreat</span>
+    <h1 class="hero-h1">Where Himalayas<br>Meet <em>Royal Elegance</em></h1>
+    <p class="hero-sub">Nestled between Kathmandu's timeless culture and Pokhara's pristine lakes — hospitality that transcends the ordinary.</p>
+    <div class="hero-ctas">
+      <button class="btn-gold" onclick="scrollSm('booking')">Book Your Stay</button>
+      <button class="btn-outline" onclick="scrollSm('gallery')">Explore Hotel</button>
+    </div>
+  </div>
+  <div class="hero-stats">
+    <div class="hstat"><span class="hstat-n">28+</span><span class="hstat-l">Years of Excellence</span></div>
+    <div class="hstat"><span class="hstat-n">4.9★</span><span class="hstat-l">Guest Rating</span></div>
+    <div class="hstat"><span class="hstat-n">120</span><span class="hstat-l">Luxury Suites</span></div>
+    <div class="hstat"><span class="hstat-n">5★</span><span class="hstat-l">Certified Hotel</span></div>
+  </div>
+</section>
+
+<!-- BOOKING BAR -->
+<section class="booking" id="booking">
+  <div class="cnt">
+    <h2 class="booking-title tf">Reserve Your Royal Room</h2>
+    <div class="booking-grid">
+      <div class="bfield"><label for="ci">Check-In</label><input class="finput" type="date" id="ci"/></div>
+      <div class="bfield"><label for="co">Check-Out</label><input class="finput" type="date" id="co"/></div>
+      <div class="bfield">
+        <label for="gc">Guests</label>
+        <select class="finput" id="gc">
+          <option>1 Guest</option><option>2 Guests</option><option selected>2 Guests + 1 Child</option>
+          <option>3 Guests</option><option>4 Guests</option>
+        </select>
+      </div>
+      <div class="bfield">
+        <label for="rt">Room Type</label>
+        <select class="finput" id="rt">
+          <option>Deluxe Room</option><option>Superior Suite</option>
+          <option>Himalayan Suite</option><option>Royal Penthouse</option>
+        </select>
+      </div>
+      <div class="bfield"><label>&nbsp;</label><button class="btn-book-bar" onclick="handleBooking()">Check Availability</button></div>
+    </div>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section class="gallery" id="gallery">
+  <div class="cnt">
+    <div class="rev">
+      <span class="eyebrow">Visual Tour</span>
+      <h2 class="stitle tf">A Glimpse of <em class="ti">Royal Haven</em></h2>
+      <div class="srule"></div>
+    </div>
+    <div class="gallery-grid rev">
+      <div class="gitem g1"><img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=900&q=80" alt="Himalayan Suite" loading="lazy"/><div class="gcap">Himalayan Suite</div></div>
+      <div class="gitem g2"><img src="https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=700&q=80" alt="Infinity Pool" loading="lazy"/><div class="gcap">Infinity Pool</div></div>
+      <div class="gitem g3"><img src="https://images.unsplash.com/photo-1540541338287-41700207dee6?w=700&q=80" alt="Royal Spa" loading="lazy"/><div class="gcap">Royal Spa</div></div>
+      <div class="gitem g4"><img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=700&q=80" alt="Fine Dining" loading="lazy"/><div class="gcap">Fine Dining</div></div>
+      <div class="gitem g5"><img src="https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=700&q=80" alt="Royal Bedroom" loading="lazy"/><div class="gcap">Royal Bedroom</div></div>
+      <div class="gitem g6"><img src="https://images.unsplash.com/photo-1462275646964-a0e3386b89fa?w=700&q=80" alt="Skyline Lounge" loading="lazy"/><div class="gcap">Skyline Lounge</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ROOMS -->
+<section class="rooms" id="rooms">
+  <div class="cnt">
+    <div class="rev" style="text-align:center">
+      <span class="eyebrow">Accommodations</span>
+      <h2 class="stitle tf">Curated Rooms &amp; Suites</h2>
+      <div class="srule c"></div>
+    </div>
+    <div class="rooms-grid">
+      <article class="rcard rev" style="transition-delay:.1s">
+        <img class="rimg" src="https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=700&q=80" alt="Deluxe Room" loading="lazy"/>
+        <div class="rbody">
+          <h3 class="rname">Deluxe Room</h3>
+          <p class="rprice"><strong>RS5000</strong><span>/ night</span></p>
+          <div class="rtags"><span class="rtag">King Bed</span><span class="rtag">City View</span><span class="rtag">40 m²</span></div>
+          <p class="rdesc">Elegant comfort with handcrafted Nepali décor, premium bedding and panoramic city views from your private balcony.</p>
+          <button class="btn-room" onclick="selectRoom('Deluxe Room',5000)">Book Now</button>
+        </div>
+      </article>
+      <article class="rcard rev" style="transition-delay:.2s">
+        <img class="rimg" src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=700&q=80" alt="Superior Suite" loading="lazy"/>
+        <div class="rbody">
+          <h3 class="rname">Superior Suite</h3>
+          <p class="rprice"><strong>RS10000</strong><span>/ night</span></p>
+          <div class="rtags"><span class="rtag">King Bed</span><span class="rtag">Valley View</span><span class="rtag">Jacuzzi</span><span class="rtag">70 m²</span></div>
+          <p class="rdesc">Floor-to-ceiling windows frame the Kathmandu Valley while your private jacuzzi awaits. A sanctuary of space and refined luxury.</p>
+          <button class="btn-room" onclick="selectRoom('Superior Suite',10000)">Book Now</button>
+        </div>
+      </article>
+      <article class="rcard rev" style="transition-delay:.3s">
+        <img class="rimg" src="https://images.unsplash.com/photo-1540541338287-41700207dee6?w=700&q=80" alt="Royal Penthouse" loading="lazy"/>
+        <div class="rbody">
+          <h3 class="rname">Royal Penthouse</h3>
+          <p class="rprice"><strong>RS85000</strong><span>/ night</span></p>
+          <div class="rtags"><span class="rtag">Himalayan View</span><span class="rtag">Butler Service</span><span class="rtag">Private Pool</span><span class="rtag">200 m²</span></div>
+          <p class="rdesc">Panoramic Himalayan vistas, a private pool terrace and your dedicated 24-hour royal butler — the crown jewel of Royal Haven.</p>
+          <button class="btn-room" onclick="selectRoom('Royal Penthouse',85000)">Book Now</button>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- AMENITIES -->
+<section class="amen">
+  <div class="cnt">
+    <div class="rev" style="text-align:center">
+      <span class="eyebrow">World-Class Facilities</span>
+      <h2 class="stitle tf">Royal Amenities</h2>
+      <div class="srule c"></div>
+    </div>
+    <div class="amen-grid rev">
+      <div class="aitem"><span class="aico">🏊</span><span class="aname">Infinity Pool</span></div>
+      <div class="aitem"><span class="aico">💆</span><span class="aname">Royal Spa</span></div>
+      <div class="aitem"><span class="aico">🍽️</span><span class="aname">Fine Dining</span></div>
+      <div class="aitem"><span class="aico">🏋️</span><span class="aname">Fitness Centre</span></div>
+      <div class="aitem"><span class="aico">🚁</span><span class="aname">Helipad</span></div>
+      <div class="aitem"><span class="aico">🌿</span><span class="aname">Garden Terrace</span></div>
+      <div class="aitem"><span class="aico">🍸</span><span class="aname">Sky Lounge Bar</span></div>
+      <div class="aitem"><span class="aico">🧖</span><span class="aname">Steam & Sauna</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- FEEDBACK -->
+<section class="feedback" id="feedback">
+  <div class="cnt">
+    <div class="rev" style="text-align:center;margin-bottom:2rem">
+      <span class="eyebrow">Guest Reviews</span>
+      <h2 class="stitle tf">Share Your Experience</h2>
+      <div class="srule c"></div>
+    </div>
+    <form class="sform rev" id="ffForm" novalidate>
+      <div class="frow">
+        <div class="fg" id="fgN"><label for="fn">Full Name *</label><input type="text" id="fn" placeholder="e.g. Aarav Sharma"/><div class="vmsg">Please enter your name (2+ chars).</div></div>
+        <div class="fg" id="fgE"><label for="fe">Email *</label><input type="email" id="fe" placeholder="you@example.com"/><div class="vmsg">Please enter a valid email.</div></div>
+      </div>
+      <div class="frow">
+        <div class="fg"><label for="fa">Age</label><input type="number" id="fa" min="1" max="120" placeholder="30"/></div>
+        <div class="fg"><label for="fs">Stay Type</label><select id="fs"><option>Leisure</option><option>Business</option><option>Honeymoon</option><option>Family</option></select></div>
+      </div>
+      <div class="fg">
+        <label>Overall Rating *</label>
+        <div class="stars" id="starRow">
+          <button type="button" class="star" data-v="1">★</button>
+          <button type="button" class="star" data-v="2">★</button>
+          <button type="button" class="star" data-v="3">★</button>
+          <button type="button" class="star" data-v="4">★</button>
+          <button type="button" class="star" data-v="5">★</button>
+        </div>
+      </div>
+      <div class="fg" id="fgC"><label for="fc">Your Review *</label><textarea id="fc" rows="4" placeholder="Tell us about your stay at Royal Haven…"></textarea><div class="vmsg">Please share your thoughts (10+ chars).</div></div>
+      <button type="submit" class="btn-sub">Submit Your Review ✦</button>
+    </form>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <span class="fbrand">♛ ROYAL HAVEN</span>
+  <p class="ftagline">Luxury Redefined in Nepal</p>
+  <nav class="flinks">
+    <a href="#">Instagram</a><a href="#">Facebook</a>
+    <a href="#">Twitter / X</a><a href="#">TripAdvisor</a><a href="#">Booking.com</a>
+  </nav>
+  <p>Thamel, Kathmandu, Nepal &nbsp;·&nbsp; +977 1-4XXXXXX &nbsp;·&nbsp; info@royalhavenhotel.com.np</p>
+  <br/><small>© 2025 Royal Haven Hotel. All rights reserved.</small>
+</footer>
+
+<!-- LOGIN MODAL -->
+<div class="overlay" id="loginOv">
+  <div class="modal">
+    <button class="mcl" onclick="closeLogin()">✕</button>
+    <h2 class="tf">Welcome Back</h2>
+    <p>Sign in or create an account to manage bookings.</p>
+    <div class="mtabs">
+      <button class="mtab active" onclick="swTab('login')">Sign In</button>
+      <button class="mtab" onclick="swTab('reg')">Register</button>
+    </div>
+    <div class="tpane active" id="tLogin">
+      <input class="mi" type="text" id="lu" placeholder="Username or Email"/>
+      <input class="mi" type="password" id="lp" placeholder="Password"/>
+      <div class="merr" id="lerr">Invalid username or password.</div>
+      <button class="btn-mod" onclick="doLogin()">Sign In</button>
+      <p class="mhint">Admin demo: <strong>admin</strong> / <strong>admin123</strong></p>
+    </div>
+    <div class="tpane" id="tReg">
+      <input class="mi" type="text" id="rn" placeholder="Full Name"/>
+      <input class="mi" type="text" id="ru" placeholder="Username"/>
+      <input class="mi" type="email" id="re" placeholder="Email"/>
+      <input class="mi" type="password" id="rp" placeholder="Password"/>
+      <div class="merr" id="rerr"></div>
+      <button class="btn-mod" onclick="doReg()">Create Account</button>
+    </div>
+  </div>
+</div>
+
+<!-- BOOKING MODAL -->
+<div class="overlay" id="bookOv">
+  <div class="modal">
+    <button class="mcl" onclick="closeBook()">✕</button>
+    <h2 class="tf">Confirm Booking</h2>
+    <p id="bSum" style="color:var(--c10);font-size:1rem;margin-bottom:1rem"></p>
+    <input class="mi" type="text" id="bn" placeholder="Guest Name"/>
+    <input class="mi" type="email" id="be" placeholder="Email"/>
+    <input class="mi" type="tel" id="bp" placeholder="Phone Number"/>
+    <div class="merr" id="berr">Please fill in all fields.</div>
+    <button class="btn-mod" onclick="confirmBook()">Confirm Reservation ✦</button>
+  </div>
+</div>
+
+<!-- SUCCESS POPUP -->
+<div class="sov" id="sucOv">
+  <div class="sbox">
+    <span class="sico">✨</span>
+    <h2 class="tf">Thank You!</h2>
+    <p id="sucMsg">Your request has been submitted successfully.</p>
+    <button class="btn-mod" onclick="closeSuc()">Close</button>
+  </div>
+</div>
+
+<!-- ADMIN PANEL -->
+<div class="admin" id="adminPanel">
+  <div class="admin-hd">
+    <h2>♛ Admin Dashboard</h2>
+    <button class="btn-ghost" onclick="closeAdmin()">← Exit Dashboard</button>
+  </div>
+  <div class="admin-bd">
+    <div class="kpis" id="kpis"></div>
+    <h3 class="ah3">📋 Bookings</h3>
+    <div class="atw"><table class="at"><thead><tr><th>Guest</th><th>Email</th><th>Room</th><th>Price</th><th>Date</th><th>Status</th></tr></thead><tbody id="btb"></tbody></table></div>
+    <h3 class="ah3">💬 Reviews</h3>
+    <div class="atw"><table class="at"><thead><tr><th>Name</th><th>Email</th><th>Rating</th><th>Comment</th><th>Date</th></tr></thead><tbody id="rtb"></tbody></table></div>
+    <h3 class="ah3">👤 Users</h3>
+    <div class="atw"><table class="at"><thead><tr><th>Username</th><th>Email</th><th>Registered</th></tr></thead><tbody id="utb"></tbody></table></div>
+  </div>
+</div>
+
+<!-- TOAST -->
+<div class="toast" id="toast"></div>
+<script src="script.js"></script>
+</body>
+</html>
